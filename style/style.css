@@ -34,12 +34,8 @@ img[alt="foto_perfil"]{
     width:70px;
     margin: 0px 20px;
     border-radius: 50%;
-    transition: transform .2s;
 }
 
-.social_network img:hover{
-   transform: translate(-2px,-2px);
-}
 
 main{
     
