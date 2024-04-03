@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #4e8bdb;
+    /* background-image: linear-gradient(to top , #5395EC,#2F5586); */
+    height:100vh;
+}
+
+header{
+    padding:20px;
+    text-align: center;
+}
+
+header h1{
+    font-size:2.2em;
+    color:#fff;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.438);
+}
+
+img[alt="foto_perfil"]{
+    width: 200px;
+    margin: 20px 0px;
+    border-radius:50%;
+}
+
+.social_network img{
+    width:70px;
+    margin: 0px 20px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+.social_network img:hover{
+   transform: translate(-2px,-2px);
+}
+
+main{
+    
+    width:90%;
+    margin:10px auto;
+    padding:10px;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.projects div{
+    border: 1px solid white;
+    margin:30px;
+    height:500px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+}
+
+.projeto_mario{
+    background-image:  url("../imagens/projeto_mario.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+.projeto_android{
+    background-image:  url("../imagens/projeto_android.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+.projeto_cordel{
+    background-image:  url("../imagens/projeto_cordel.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+
+
+
+.projects a{
+    display:block;
+    margin:auto;
+    text-align: center;
+    text-decoration: none;
+    color:#203653;
+    font-weight: bold;
+}
+
+.projects a:hover{
+    color: #0b131d;
+}
