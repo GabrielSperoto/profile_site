@@ -16,23 +16,27 @@ body{
 header{
     padding:20px;
     text-align: center;
+    display:flex;
+    flex-direction: column-reverse;
 }
 
 header h1{
     font-size:2.2em;
     color:#fff;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.438);
+    margin: 10px 0px;
 }
 
 img[alt="foto_perfil"]{
+    display: block;
     width: 200px;
-    margin: 20px 0px;
+    margin: 20px auto;
     border-radius:50%;
 }
 
 .social_network img{
-    width:70px;
-    margin: 0px 20px;
+    width:50px;
+    margin: 0px 10px;
     border-radius: 50%;
 }
 
@@ -52,9 +56,9 @@ main p{
 }
 
 .projects div{
-    border: 1px solid white;
+    max-width:500px;
     margin:30px;
-    height:500px;
+    height:600px;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
 }
