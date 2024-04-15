@@ -56,10 +56,9 @@ main p{
 }
 
 .projects div{
-    max-width:500px;
-    margin:30px;
+    max-width:400px;
+    margin:30px auto;
     height:600px;
-    text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
 }
 
@@ -84,7 +83,7 @@ main p{
 
 
 
-.projects a{
+.projects #view-more{
     display:block;
     margin:auto;
     text-align: center;
@@ -93,6 +92,6 @@ main p{
     font-weight: bold;
 }
 
-.projects a:hover{
+.projects #view-more:hover{
     color: #0b131d;
 }
